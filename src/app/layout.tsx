@@ -5,7 +5,7 @@ import { AppProvider } from '@/providers/AppProvider';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Next.js Setup',
+  title: 'Hospixo Platform',
   description: 'Application',
 };
 
