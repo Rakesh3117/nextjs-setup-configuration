@@ -24,6 +24,8 @@
     "CSpell",
     "MUI",
     "logomark",
-    "codequality"
+    "codequality",
+    "treelocator",
+    "locatorjs"
   ]
 }

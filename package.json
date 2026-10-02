@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack -p 3003",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -39,6 +39,9 @@
     "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@locator/babel-jsx": "^0.5.1",
+    "@locator/webpack-loader": "^0.5.1",
+    "@treelocator/runtime": "0.6.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
