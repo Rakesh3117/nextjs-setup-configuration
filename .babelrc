@@ -1,4 +1,12 @@
 {
   "presets": ["next/babel"],
-  "plugins": ["module:@locator/babel-jsx"]
+  "plugins": [
+    [
+      "module:@locator/babel-jsx",
+      {
+        "env": "development",
+        "dataAttribute": "path"
+      }
+    ]
+  ]
 }
